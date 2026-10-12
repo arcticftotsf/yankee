@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "yankee",
+  "version": "1.0.0",
+  "description": "blog-menu__item のリンクを新しいタブで開き、各ページの「ブログランキング」をクリックします。",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "ブログを開いてランキングをクリック" }
+}
